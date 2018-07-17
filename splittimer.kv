@@ -1,0 +1,26 @@
+<EventWidget@Widget>:
+    font_size: 32
+
+<TimerBoxWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+        pos: root.pos
+        Label:
+            text: "Game Name Here"
+        BoxLayout:
+            orientation: 'horizontal'
+            Button:
+                text: "Split"
+            Button:
+                text: "Edit Splits"
+            Button:
+                text: "Edit Game Info"
+        BoxLayout:
+            orientation: 'vertical'
+            EventWidget:
+                text: "Event #1"
+            EventWidget:
+                text: "Event #2"
+            EventWidget:
+                text: "Event #3"
